@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <!-- to make sure that the portfolio works well on every device phone laptop etc. -->
     <meta name="viewport" content="width =device-width,initial-scale=1.0" />
-    <title>Shubham Swami Website</title>
+    <title>Shubham Swami Portfolio</title>
     <!-- include normalise link to normalise use of different browsers -->
     <link
       rel="stylesheet"
@@ -21,132 +21,162 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target="#myScrollspy" data-offset="20"> 
     <header>
-      <div class="logo">
-        <img src="images/logo.png" alt="Logo" />
-      </div>
+      
+      <!-- 
       <button class="nav-toggle">
         <span class="hamburger"></span>
-      </button>
-      <nav class="nav">
-        <ul class="nav_list">
-          <li class="nav_item">
-            <a href="index.html" class="nav_link">Home</a>
+      </button> -->
+
+                  
+      <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark">
+        <!-- <div class="logo">
+          <img src="images/logo.png" alt="Logo" />
+        </div> -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav_item">
-            <a href="index.html#work" class="nav_link">Work Experience</a>
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html#about">About Me</a>
           </li>
-          <li class="nav_item">
-            <a href="index.html#education" class="nav_link">Education </a>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#work">Work Experience</a>
           </li>
-          <li class="nav_item">
-            <a href="index.html#projects" class="nav_link">Projects</a>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#education">Education</a>
           </li>
-          <li class="nav_item">
-            <a href="index.html#about" class="nav_link">About Me</a>
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html#projects">Projects</a>
           </li>
+          
         </ul>
       </nav>
+     
     </header>
 
     <!-- Introduction -->
     <section id="home" class="intro">
-      <h1 class="section_title section_title_intro">
-        Hi, I am <strong>Shubham Swami</strong>
-      </h1>
-      <p class="section_subtitle section_subtitle_intro">Grad Student @ USU</p>
-      <img
-        class="intro_img"
-        src="images/IMG_shubh.jpg"
-        alt="Picture: Shubham"
-      />
+      
+        <h1 class="section_title section_title_intro">
+          Hi, I am <strong>Shubham Swami</strong>
+        </h1>
+        <p class="section_subtitle section_subtitle_intro">Grad Student @ USU</p>
+        <img
+          class="intro_img"
+          src="images/IMG_shubh.jpg"
+          alt="Picture: Shubham"
+        />
+      
     </section>
-
+    <br/>
+    
+   
     <!-- Work Experience -->
     <section id="work" class="myworkex">
-      <h2 class="section_title section_title_workex">
-        Work Experience
-      </h2>
-      <div class="workex">
-        <div class="work-ex">
-          <h3>Accenture</h3>
+      
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Work Experience</h1>
+          <br/>
+          <table class=" lead table table-sm table-light">
+            <tbody>
+              <tr>
+                <th scope="row">Accenture Solutions Pvt. Ltd</th>
+                <td>Associate Software Engineer</td>
+                <td>May'17 - Sept'18</td>
+             </tr>
+                <tr>
+                <th scope="row">Utah State University</th>
+                <td>Graduate Teaching Assistant</td>
+                <td>Dec'19 - present</td>
+             </tr>
+            </tbody>
+          </table>
         </div>
-        <div class="work-ex">
-          <h3>Utah State University</h3>
-        </div>
-        <div class="work-ex">
-          <h3>Intern @ IHC</h3>
-        </div>
+        
       </div>
-      <!-- <a href="#work" class="btn">My Work Experience</a> -->
+      
+      
+      
     </section>
-
+    <br/>
     <!-- Education -->
-
     <section id="education" class="myeducation">
-      <h2 class="section_title section_title_education">
-        Education
-      </h2>
-      <div class="myedu">
-        <div class="edu">
-          <h3>Utah State Univerity</h3>
-        </div>
-        <div class="edu">
-          <h3>IET DAVV</h3>
+     
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Education</h1>
+        <br/>
+          <table class=" lead table table-sm table-light">
+                  <tbody>
+                    <tr>
+                      <th scope="row">Utah State UniversityLtd</th>
+                      <td>MS-Computer Science</td>
+                      <td>Aug'19 - May'21(Expected)</td>
+                   </tr>
+                      <tr>
+                      <th scope="row">IET DAVV, India</th>
+                      <td>Bachelors of Engineering- Electronics and Instrumentation</td>
+                      <td>Aug'13 - May'17</td>
+                   </tr>
+                  </tbody>
+                </table>
         </div>
       </div>
-      <!-- <a href="#work" class="btn">My Work Experience</a> -->
+      
     </section>
+    <br/>
 
     <!-- Projects -->
     <section id="projects" class="myprojects">
-      <h2 class="section_title section_title_project">
-        Projects
-      </h2>
-      <div class="workex">
-        <div class="work-ex">
-          <h3>Tello Drone</h3>
-        </div>
-        <div class="work-ex">
-          <h3>Gaurded SQL</h3>
-        </div>
-        <div class="work-ex">
-          <h3>Shapes Library</h3>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Projects</h1>
+          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
         </div>
       </div>
-      <!-- <a href="#work" class="btn">My Work Experience</a> -->
+      
     </section>
+    <br/>
 
-    <!-- About me -->
-    <section class="about-me" id="about">
-      <h2 class="section__title section__title--about">About me</h2>
-      <p class="section__subtitle section__subtitle--about"></p>
-
-      <div class="about-me__body">
-        <p></p>
-        <p></p>
+     <!-- About me -->
+     <section class="about" id="about">
+      
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">About Me</h1>
+          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+       
+        </div>
       </div>
+      
     </section>
-
+    <br/>
     <!-- Footer -->
     <footer class="footer">
       <ul class="social-list">
         <li class="social-list__item">
-          <a href="shubh.swami27@gmail.com" class="social-list__link"
+          <a href="mailto:shubh.swami27@gmail.com"  target="_blank" class="social-list__link"
             ><i class="fas fa-mail-bulk"></i>
           </a>
         </li>
         <li class="social-list__item">
-          <a class="social-list__link" href="https://codepen.io"
+          <a class="social-list__link" target="_blank" href="https://www.linkedin.com/in/shubham-swami/"
             ><i class="fab fa-linkedin"></i
           ></a>
         </li>
 
         <li class="social-list__item">
-          <a class="social-list__link" href="https://github.com">
+          <a class="social-list__link" target="_blank" href="https://github.com">
             <i class="fab fa-github"></i
           ></a>
         </li>
@@ -154,5 +184,7 @@
     </footer>
 
     <script src="js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
   </body>
 </html>
