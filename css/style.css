@@ -96,7 +96,8 @@ strong {
 
 .section_subtitle_intro,
 .section_subtitle_about {
-  background: var(--clr-accent);
+  background: var(--clr-dark);
+  color:white;
   font-family: var(--ff-secondary);
 }
 

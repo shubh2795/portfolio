@@ -12,10 +12,5 @@ navLinks.forEach((link) => {
 });
 
 
-$(document).ready(function(){
-  $("body").scrollspy({
-      target: "#list-example",
-      offset: 70
-  }) 
-});
 
+    
