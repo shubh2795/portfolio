@@ -45,9 +45,11 @@ body {
   line-height: 1.6;
   position: relative;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 img {
   display: block;
   max-width: 100%;
@@ -65,9 +67,11 @@ h3 {
 h1 {
   font-size: var(--fs-h1);
 }
+
 h2 {
   font-size: var(--fs-h2);
 }
+
 h3 {
   font-size: var(--fs-h3);
 }
@@ -97,8 +101,38 @@ strong {
 .section_subtitle_intro,
 .section_subtitle_about {
   background: var(--clr-dark);
-  color:white;
+  color: white;
   font-family: var(--ff-secondary);
+}
+.carousel-indicators l1  {
+  margin-top: auto;
+  padding: 5px;
+  background-color: #999;
+  background-color: rgba(70, 70, 70, 0.25);
+}
+
+#skillsjumbotron{
+  text-align: center;
+}
+
+.carousel-control-prev,.carousel-control-next{
+  background-color: rgba(70, 70, 70, 0.25);
+}
+
+.carousel-indicators .active,.carousel-control-prev .active,.carousel-control-next .active {
+  background-color: #444;
+}
+/* Make the image fully responsive */
+.carousel-inner img {
+  width: 50%; margin: auto;
+  
+}
+
+.icon {
+  max-width: 30px;
+  padding: 2px;
+  margin: 2px;
+  display: inline;
 }
 
 /*  Intro section  */
@@ -145,7 +179,8 @@ strong {
   }
 }
 
-.myworkex,.myprojects {
+.myworkex,
+.myprojects,.myskills {
   background-color: var(--clr-dark);
   /* background-image: url(../img/services-bg.jpg); */
   background-size: cover;
@@ -181,30 +216,31 @@ strong {
   .workex {
     display: flex;
     max-width: 1000px;
-    
+
   }
 
-  .work-ex + .work-ex {
+  .work-ex+.work-ex {
     margin-left: 2em;
   }
 }
 
-.about,.myeducation {
+.about,
+.myeducation {
   background-size: cover;
-  background-color:var(--clr-accent) ;
-  color: var(--clr-dark);	
+  background-color: var(--clr-accent);
+  color: var(--clr-dark);
   text-align: center;
-  
-  }
 
-  .section_title_about,	
-  .section_title_education {	
-    text-align: center;	
-    color: var(--clr-dark);	
-    position: relative;
-    
-    
-  }
+}
+
+.section_title_about,
+.section_title_education {
+  text-align: center;
+  color: var(--clr-dark);
+  position: relative;
+
+
+}
 
 
 
@@ -331,6 +367,7 @@ header {
 .nav_link:hover {
   color: var(--clr-accent);
 }
+
 .nav-toggle {
   padding: 0.5em;
   background: transparent;
@@ -349,6 +386,7 @@ header {
 .nav-open .nav-toggle {
   position: fixed;
 }
+
 .nav-open .hamburger {
   transform: rotate(0.625turn);
 }
@@ -387,6 +425,7 @@ header {
 .hamburger::before {
   top: 6px;
 }
+
 .hamburger::after {
   bottom: 6px;
 }

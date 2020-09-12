@@ -1,194 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <!-- to make sure that the portfolio works well on every device phone laptop etc. -->
-    <meta name="viewport" content="width =device-width,initial-scale=1.0" />
-    <title>Shubham Swami Portfolio</title>
-    <!-- include normalise link to normalise use of different browsers -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
- 
-    
-  </head>
 
-  <body data-spy="scroll" data-target="#myScrollspy" data-offset="20"> 
-    
-    
-    
-    <header>
-      
-      <!-- 
+<head>
+  <meta charset="UTF-8" />
+  <!-- to make sure that the portfolio works well on every device phone laptop etc. -->
+  <meta name="viewport" content="width =device-width,initial-scale=1.0" />
+  <title>Shubham Swami Portfolio</title>
+  <!-- include normalise link to normalise use of different browsers -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+</head>
+
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+
+
+
+  <header>
+
+    <!-- 
       <button class="nav-toggle">
         <span class="hamburger"></span>
       </button> -->
 
-                  
-      <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark">
-        <!-- <div class="logo">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark">
+      <!-- <div class="logo">
           <img src="images/logo.png" alt="Logo" />
         </div> -->
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="index.html#about">About Me</a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="index.html#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="index.html#education">Education</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="index.html#work">Work Experience</a>
-          </li>
-          
-         
-        </ul>
-      </nav>
-     
-    </header>
+      <ul class="navbar-nav">
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html#about">About Me</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#skills">Skills </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#work">Work Experience</a>
+        </li>
 
-    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLongTitle">Welcome!</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-        <form>
-      <div >
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="First name">
-        </div>
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Last name">
-        </div>
+
+      </ul>
+    </nav>
+
+  </header>
+
+
+
+  <!-- Introduction -->
+  <section id="home" class="intro">
+
+    <h1 class="section_title section_title_intro">
+      Hi, I am <strong>Shubham Swami</strong>
+    </h1>
+    <p class="section_subtitle section_subtitle_intro">Grad Student @ USU</p>
+    <img class="intro_img" src="images/IMG_shubh.jpg" alt="Picture: Shubham" />
+
+  </section>
+  <br />
+
+
+  <!-- Work Experience -->
+  <section id="work" class="myworkex">
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Work Experience</h1>
+        <br />
+        <table class=" lead table table-sm table-light">
+          <tbody>
+            <tr>
+              <th scope="row"><img class="icon" src="images/accentureIcon.png" alt="Logo" /></th>
+              <td scope="row">Accenture Solutions Pvt. Ltd</td>
+              <td>Associate Software Engineer</td>
+              <td>May'17 - Sept'18</td>
+            </tr>
+            <tr>
+              <th scope="row"><img class="icon" src="images/usuIcon.png" alt="Logo" /></th>
+              <td scope="row">Utah State University</td>
+              <td>Graduate Teaching Assistant</td>
+              <td>Dec'19 - present</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
-    <div class="form-group">
-    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-        </div>
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Company">
-        </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </form>
-          </div>
-         
-        </div>
+
+    </div>
+
+
+
+  </section>
+  <br />
+  <!-- Education -->
+  <section id="education" class="myeducation">
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Education</h1>
+        <br />
+        <table class=" lead table table-sm table-light">
+          <tbody>
+            <tr>
+              <th scope="row"><img class="icon" src="images/usuIcon.png" alt="Logo" /></th>
+              <td>
+                Utah State University
+              </td>
+
+              <td>MS-Computer Science</td>
+              <td>Aug'19 - May'21(Expected)</td>
+            </tr>
+            <tr>
+              <th scope="row"><img class="icon" src="images/ietLogo.jpg" alt="Logo" /></th>
+              <td> IET DAVV, India</td>
+              <td>BE- Electronics and Instrumentation</td>
+              <td>Aug'13 - May'17</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
 
-    <!-- Introduction -->
-    <section id="home" class="intro">
-      
-        <h1 class="section_title section_title_intro">
-          Hi, I am <strong>Shubham Swami</strong>
-        </h1>
-        <p class="section_subtitle section_subtitle_intro">Grad Student @ USU</p>
-        <img
-          class="intro_img"
-          src="images/IMG_shubh.jpg"
-          alt="Picture: Shubham"
-        />
-      
-    </section>
-    <br/>
-    
-   
-    <!-- Work Experience -->
-    <section id="work" class="myworkex">
-      
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4">Work Experience</h1>
-          <br/>
-          <table class=" lead table table-sm table-light">
-            <tbody>
-              <tr>
-                <th scope="row">Accenture Solutions Pvt. Ltd</th>
-                <td>Associate Software Engineer</td>
-                <td>May'17 - Sept'18</td>
-             </tr>
-                <tr>
-                <th scope="row">Utah State University</th>
-                <td>Graduate Teaching Assistant</td>
-                <td>Dec'19 - present</td>
-             </tr>
-            </tbody>
-          </table>
-        </div>
-        
-      </div>
-      
-      
-      
-    </section>
-    <br/>
-    <!-- Education -->
-    <section id="education" class="myeducation">
-     
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4">Education</h1>
-        <br/>
-          <table class=" lead table table-sm table-light">
-                  <tbody>
-                    <tr>
-                      <th scope="row">Utah State University</th>
-                      <td>MS-Computer Science</td>
-                      <td>Aug'19 - May'21(Expected)</td>
-                   </tr>
-                      <tr>
-                      <th scope="row">IET DAVV, India</th>
-                      <td>Bachelors of Engineering- Electronics and Instrumentation</td>
-                      <td>Aug'13 - May'17</td>
-                   </tr>
-                  </tbody>
-                </table>
-        </div>
-      </div>
-      
-    </section>
-    <br/>
+  </section>
 
-    <!-- Projects -->
-    <section id="projects" class="myprojects">
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4">Projects</h1>
-          <p class="lead">Go to github to check out all the cool projects</p>
+  <br />
+  <!-- Skills -->
+  <section id="skills" class="myskills">
+
+    <div class="jumbotron jumbotron-fluid" if="skillsjumbotron">
+      <div class="container">
+        <h1 class="display-4">Skills and Certifications</h1>
+        <br />
+        <table class=" lead table table-sm table-light">
+          <tbody>
+            <tr>
+              <th scope="row">Programming Languages: </th>
+              <td>
+                Java
+              </td>
+              <td>Python</td>
+              <td>Golang</td>
+              <td>R</td>
+              <!-- <td>Shell Script</td>  -->
+
+            </tr>
+            <tr>
+              <th scope="row">Database: </th>
+              <td>
+                MySQL
+              </td>
+              <td>Couch DB</td>
+              <td>Neo4J(graph DB)</td>
+              <td>Xquery</td>
+              <!-- <td>Shell Script</td>  -->
+
+            </tr>
+            <tr>
+              <th scope="row">Frameworks and Libraries: </th>
+              <td>
+                Spring Boot
+              </td>
+              <td>Spring 5</td>
+              <td>ThymeLeaf</td>
+              <td>Hibernate</td>
+              <!-- <td>Shell Script</td>  -->
+
+            </tr>
+            <tr>
+              <th scope="row">Web Development Technologies: </th>
+              <td>
+                Angular
+              </td>
+              <td>HTML</td>
+              <td>CSS</td>
+              <td>BootStrap</td>
+              <!-- <td>Shell Script</td>  -->
+
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+    
+        <!-- carousel -->
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+          </ul>
+
+          <!-- The slideshow -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/certificates/GoLang.jpg" alt="GoLang" width="1100" height="500">
+            </div>
+            <div class="carousel-item">
+              <img src="images/certificates/DataStructures.jpg" alt="DataStructures" width="1100" height="500">
+            </div>
+            <!-- <div class="carousel-item">
+              <img src="ny.jpg" alt="New York" width="1100" height="500">
+            </div> -->
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
         </div>
+      
+      </div>
+
+  </section>
+
+  <br />
+
+  <!-- Projects -->
+  <section id="projects" class="myprojects">
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Projects</h1>
+        <p class="lead">Go to github to check out all the cool projects</p>
+
         <div class="row">
           <div class="col-sm-4">
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Sudoku Solver</h5>
-                <p class="card-text">An application that lets you solve the sudoku puzzle and can also solve any puzzle on it's own.</p>
-                <a href="#" class="btn btn-primary">Checkout github repository</a>
+                <p class="card-text">An application that lets you solve the sudoku puzzle and can also solve any puzzle
+                  on it's own.</p>
+                <a class="social-list__link" target="_blank" href="https://github.com">
+                  <i class="fab fa-github"></i></a>
               </div>
             </div>
           </div>
@@ -197,7 +255,8 @@
               <div class="card-body">
                 <h5 class="card-title">Covid-19 Tracker</h5>
                 <p class="card-text">A web application that monitors global covid cases, deaths and recoveries.</p>
-                <a href="#" class="btn btn-primary">Checkout github repository</a>
+                <a class="social-list__link" target="_blank" href="https://github.com">
+                  <i class="fab fa-github"></i></a>
               </div>
             </div>
           </div>
@@ -205,62 +264,139 @@
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Tello Drone App</h5>
-                <p class="card-text">A cool console app that commands the tello drone to execute different operations.</p>
-                <a href="#" class="btn btn-primary">Checkout github repository</a>
+                <p class="card-text">A cool console app that commands the tello drone to execute different operations.
+                </p>
+                <a class="social-list__link" target="_blank" href="https://github.com">
+                  <i class="fab fa-github"></i></a>
               </div>
             </div>
           </div>
         </div>
-        
-        
-      </div>
-      
-    </section>
-    <br/>
+        <br />
 
-     <!-- About me -->
-     <section class="about" id="about">
-      
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4">About Me</h1>
-          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-       
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">My Portfolio</h5>
+                <p class="card-text">Like my portfolio and other projects ? Go to github repos and give them a star.</p>
+                <a class="social-list__link" target="_blank" href="https://github.com">
+                  <i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Gaurded SQL</h5>
+                <p class="card-text">A research project at USU to implement query quards that make queries reusable.</p>
+                <a class="social-list__link" target="_blank" href="https://github.com">
+                  <i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Shapes Library</h5>
+                <p class="card-text">A java library thatcan be used by anyone to render shapes in your java project.</p>
+                <a class="social-list__link" target="_blank" href="https://github.com">
+                  <i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      
-    </section>
-    <br/>
-    <!-- Footer -->
-    <footer class="footer">
-      <ul class="social-list">
-        <li class="social-list__item">
-          <a href="mailto:shubh.swami27@gmail.com"  target="_blank" class="social-list__link"
-            ><i class="fas fa-mail-bulk"></i>
-          </a>
-        </li>
-        <li class="social-list__item">
-          <a class="social-list__link" target="_blank" href="https://www.linkedin.com/in/shubham-swami/"
-            ><i class="fab fa-linkedin"></i
-          ></a>
-        </li>
 
-        <li class="social-list__item">
-          <a class="social-list__link" target="_blank" href="https://github.com">
-            <i class="fab fa-github"></i
-          ></a>
-        </li>
-      </ul>
-    </footer>
+    </div>
 
-    <script src="js/index.js"></script>
-    
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script>
-      $('#exampleModalCenter').modal('show');
-    </script>
-  </body>
+  </section>
+
+  <!-- About me -->
+  <section class="about" id="about">
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">About Me</h1>
+        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+
+      </div>
+    </div>
+
+  </section>
+  <br />
+  <!-- Footer -->
+  <footer class="footer">
+    <ul class="social-list">
+      <li class="social-list__item">
+        <a href="mailto:shubh.swami27@gmail.com" target="_blank" class="social-list__link"><i
+            class="fas fa-mail-bulk"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" target="_blank" href="https://www.linkedin.com/in/shubham-swami/"><i
+            class="fab fa-linkedin"></i></a>
+      </li>
+
+      <li class="social-list__item">
+        <a class="social-list__link" target="_blank" href="https://github.com">
+          <i class="fab fa-github"></i></a>
+      </li>
+    </ul>
+  </footer>
+  <!-- Modal Dialog -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Welcome!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="First name">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Last name">
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Company">
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+  <script src="js/index.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+
+  <script>
+    $('#exampleModalCenter').modal('show');
+  </script>
+</body>
+
 </html>
