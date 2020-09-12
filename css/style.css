@@ -49,7 +49,9 @@ body {
 html {
   scroll-behavior: smooth;
 }
-
+.para{
+  text-align:justify;
+}
 img {
   display: block;
   max-width: 100%;
@@ -124,7 +126,7 @@ strong {
 }
 /* Make the image fully responsive */
 .carousel-inner img {
-  width: 50%; margin: auto;
+  width: 40%; margin: auto;
   
 }
 
